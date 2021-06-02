@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(79, 212, 168);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+header{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+footer{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+section{background: white;
+        border-radius:  10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        box-shadow: 5px 5px 10px black ;
+
+}
