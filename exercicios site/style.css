@@ -21,3 +21,16 @@ body{
         text-shadow: 5px 5px
         5px black ;
     }
+    div{
+        text-align: center;
+        height: 600px;
+        padding: 10px;
+        height: auto;
+    }
+    #imagem{width: 400px;
+    text-align: center;
+        padding: 5px;
+        height: 500px;
+        
+
+    }
