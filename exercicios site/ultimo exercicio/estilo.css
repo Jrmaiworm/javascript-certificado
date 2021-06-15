@@ -1,0 +1,25 @@
+body{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    background-color: rgb(119, 204, 204);
+color: white;
+
+} 
+
+section{width: 500px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    background: white;
+    height: auto;
+
+}
+footer{
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+#div1 {
+    color: black;
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}

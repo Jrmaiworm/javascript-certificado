@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+
+<body>
+    <h1>Sistema de multas DETRAN -RJ</h1>
+    <h2>Velocidade maxima permitida 60KM/h.</h2>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel">Km/h<br>
+    <input type="button" value="verificar  " onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var r = window.document.querySelector('div#res')
+            var v = window.document.getElementById('txtvel')
+            var velo = Number(v.value)
+            r.innerHTML = `<p>Sua velocidade atual é de ${velo} Km/h.</p`
+            if (velo > 60) {
+                r.innerHTML += '<p>Você foi multado seu animal!!<p/>'
+            }
+            r.innerHTML += '<p>Dirija com cuidado, use sempre o cinto de segurança!</p>'
+        }
+    </script>
+</body>
+
+</html>
